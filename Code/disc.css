@@ -1,0 +1,323 @@
+.logo img{
+    width: 124px;
+    height: auto;
+    background-color: #5900ff;
+}
+*{
+    background-color: #5900fe;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+* h1{
+    font-family: Discord,sans-serif;
+}
+.navd{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 8rem;
+    padding: 30px;
+    margin:0%;
+    font-family: Angel,sans-serif;
+    font-weight: 600;
+    background-color: #5900ff;  
+}
+    body{
+    margin: 0%;
+}
+.navd a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.nav-mid{
+    display: flex ;
+    gap: 2.7rem;
+}
+.nav-right button{
+    border-radius: 40px;
+    padding: 7px 16px;
+    color: rgb(0, 0, 0);
+    background-color: #f1f9ff;
+    font-weight: 700; 
+    font-size: 14px;
+    line-height: 24px;
+    border: none;
+}
+.navd a:hover{
+    text-decoration: underline; 
+}
+.nav-right button:hover{
+    color: #9c66ff;
+}
+@font-face {
+    font-family: Discord;
+    src: url(/Fonts/ginto-font-family-1727674605-0/ABCGintoNord-Bold-Trial-BF651b7b7670e10.otf);
+}
+.headi{
+    font-family: Discord,sans-serif;
+    font-size: 1.875rem;
+    line-height: 1;
+    width: 600px;
+    color:white ;
+    font-weight: 800;
+}
+.para p{
+    font-family: Angel , sans-serif;
+    width: 300px;
+    font-size: 1.425rem;
+    line-height: 35px;
+    width: 500px;
+    padding-top: 50px;
+
+    color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 0;
+    justify-content: center;
+    background-color: #5900ff;    
+}
+.textt{
+    display: flex;
+    flex-direction: column;
+}
+ .button1 button{
+    border-radius: 28px;
+    padding: 16px 32px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid black;
+    line-height: 24px;
+}
+.button2 button{
+    border-radius: 28px;
+    padding: 16px 32px;
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    background-color: #460bbc;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    transition: 0.2s;    
+}
+@font-face {
+    font-family: Angel;
+    src: url(/Fonts/aestetico-sans-font-family/Demo_Fonts/Fontspring-DEMO-aestetico-regular.otf);
+}
+.button1 button:hover{
+    color: #5800fa;
+    box-shadow:  10px 10px 12px rgba(0, 0, 0, 0.2);
+    animation:  buttonn 1s ;
+}   
+.button2 button:hover{
+   box-shadow:  10px 13px 12px rgba(0, 0, 0, 0.2);
+}
+.headerbutton{
+    display: flex;
+    justify-content: center;
+    padding:40px;
+    gap: 2rem;
+    background-color: #5900ff;
+}
+.hori{
+    background-color: #23272a;
+    margin: 0%;
+}
+.videoo video{
+    width: 800px;
+    height:auto;
+    border-radius: 50px;
+    background-color:rgb(143, 45, 0);
+}
+.videoo{
+    background-color:rgb(223, 200, 245);
+ }
+.mainbod{
+    margin-top: 270px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    align-items: center;
+    padding-top:30px;
+    background: rgb(223, 200, 245);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(20px );
+   -webkit-backdrop-filter: blur( 5px );
+    border-radius: 65px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    gap: 45px;
+    margin-left: 110px;
+    margin-right: 110px;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+.tex{
+    background-color: rgb(223, 200, 245);
+}
+.tex h1{
+    background-color: rgb(223, 200, 245);
+}
+.tex p{
+    background-color:rgb(223, 200, 245);
+}
+.parag{
+    color: white;
+    width: 400px;
+    font-size: 25px;
+    line-height: 35px;
+}
+.tex1 h1{
+    background-color: rgb(223, 200, 245);
+}
+.endhead h1{
+    color: white;
+    font-size: 2.9375rem;
+}
+#he1{
+    text-align: center; 
+    padding: 50px;   
+}
+#he2{
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+}
+#linux2 button{
+    background-color: #460bbc;
+    color: white;
+}
+.endimage img{
+    width: 1838px;
+}
+.hrr{
+    height: 2px;    
+    margin: 0%;
+    background-color: white;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;    
+}
+.footer p{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;   
+}
+.firstl {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;   
+}
+.firstl a:hover{
+    text-decoration: underline;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+.data a{
+    font-family: "Afacad", sans-serif;
+}
+
+.social{
+    
+    margin-top: 110px;   
+}
+.social img{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.hr2{
+    width: 1250px;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.footerbut button{
+    border-radius: 40px;
+    padding: 7px 16px;
+    color: rgb(0, 0, 0);
+    background-color:  rgb(223, 200, 245);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    border: none;
+}
+.footerbut{
+    display: flex;
+    justify-content: space-around;
+    gap: 17rem;
+    margin-bottom: 50px;
+ }
+ .footerbut a{
+     text-decoration: none;
+}
+.bar{
+    overflow: hidden;
+    padding: 60px 0;
+    display: flex;
+    background: rgb(223, 200, 245);
+    white-space: nowrap;
+}
+.logos-slide{
+    
+    display: flex;
+    background: rgb(223, 200, 245);
+    animation: 40s slide infinite linear;
+    
+}
+
+@font-face {
+    font-family: Afacad;
+    src: url(/Fonts/afacad/Afacad-Italic[wght].ttf);
+}
+
+.logos-slide h1{
+    font-size: 64px;
+    padding: 0 40px;
+    background: rgb(223, 200, 245);
+}
+@keyframes slide {
+ from{
+    transform: translateX(0%);
+ }
+ to{
+    transform: translateX(-100%);
+ }   
+}
+.dropd select{
+    color: rgb(0, 0, 0);
+    background-color:  rgb(223, 200, 245);
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 9px;
+    border: none;
+    padding-right: 9px;
+    font-family: Angel,sans-serif;
+    font-size: 20px;
+    
+}
+.dropd select-selected{
+background-color:rgb(223, 200, 245);   
+}
+.dropd{
+    position: relative;
+    top: 110px;
+    right: 500px;
+}
